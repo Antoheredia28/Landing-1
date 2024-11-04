@@ -1,0 +1,20 @@
+body {
+    background: rgb(167, 104, 159);
+}
+section {
+    width: 90%;
+    max-width: 1600px;
+    height: 500px;
+    border: 1px solid #fff;
+    margin: 50px auto;
+}
+#fila{
+    width: 100%;
+    display: flex;
+}
+#foto {
+    width: 40%;    
+}
+#info {
+    width: 60%;
+}
