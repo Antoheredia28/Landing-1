@@ -5,7 +5,7 @@ section {
     width: 90%;
     max-width: 1600px;
     height: 500px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff; */
     margin: 50px auto;
 }
 #fila{
@@ -22,8 +22,41 @@ section {
     color: rosybrown;
     font-size: 32px;
     font-weight: 700;
-    font-family: "dancing script";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 0;
 } 
+#info h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+       
+}
+#info.detalle {
+    width: 150px;
+    height: 4px;
+    background: #00f29e;
+}
+#info p {
+    color: #fff;
+    font-size: 15px;
+    margin: 30px;
+}
+#Info article {
+    border: 10px solid #00f29e
+}
+article ul li {
+    color: #fff;
+    font-size: 20px;
+    list-style: none;
+    width: 50%;
+    display: inline-block;
+}
+#Info .redes {
+    margin: 100px 0;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+#Info .redes a {
+    margin: 0 15px;
+}
