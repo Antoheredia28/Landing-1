@@ -1,62 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body {
-    background: rgb(167, 104, 159);
+    background: pink;
 }
 section {
     width: 90%;
     max-width: 1600px;
     height: 500px;
-    /*border: 1px solid #fff; */
+    /*border: 1px solid #fff;*/
     margin: 50px auto;
 }
-#fila{
+#fila {
     width: 100%;
     display: flex;
 }
 #foto {
-    width: 40%;    
+    width: 40%;
 }
-#info {
+#info{
     width: 60%;
 }
 #info h2 {
-    color: rosybrown;
+    color: blueviolet;
     font-size: 32px;
     font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Abril Fatface";
     margin-bottom: 0;
-} 
+}
 #info h1 {
     color: #fff;
     font-size: 50px;
     font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Abril Fatface";
     margin: 0;
-       
 }
-#info.detalle {
-    width: 150px;
+#info .detalle {
+    width: 300px;
     height: 4px;
-    background: #00f29e;
+    background-color: blueviolet;
 }
 #info p {
     color: #fff;
     font-size: 15px;
     margin: 30px;
 }
-#Info article {
-    border: 10px solid #00f29e
+#info article {
+    border: 3px solid blueviolet;
 }
 article ul li {
     color: #fff;
     font-size: 20px;
     list-style: none;
-    width: 50%;
+    width: 48%;
     display: inline-block;
 }
-#Info .redes {
-    margin: 100px 0;
+#info .redes {
+    margin: 30px 0;    
 }
-
-#Info .redes a {
+#info .redes a {
     margin: 0 15px;
 }
